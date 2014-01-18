@@ -1,9 +1,9 @@
 var options = {
 	title: 'かとじゅんのメトリクス',
 	width: 900,
-	height: 200,
+	height: 300,
 	pointSize: 8,
-	series:{ 0:{targetAxisIndex:0}, 1:{targetAxisIndex:1} } ,
+	series:{ 0: { targetAxisIndex: 0 }, 1: { targetAxisIndex: 1 } },
 	hAxis: { title: '測定日時' },
 	vAxes: [ { title: '体重(kg)' }, { title: '体脂肪率(%)' } ],
 	legend: { position: 'bottom' }
