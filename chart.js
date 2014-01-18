@@ -9,8 +9,10 @@ var options = {
 	legend: { position: 'bottom' }
 };
 
-google.load("visualization", "1", {'packages':['corechart']});
-google.setOnLoadCallback(drawChart);
+function initChart() {
+	google.load("visualization", "1", {'packages':['corechart']});
+	google.setOnLoadCallback(drawChart);
+}
 
 function drawChart() {
 	var dataSourceUrl = 'https://docs.google.com/spreadsheet/ccc?key=0AlVz-_rs8_dPdHNjLVpzWVZ1YUVsZ0FQN0t4dzdHRkE&usp=drive_web#gid=0';
